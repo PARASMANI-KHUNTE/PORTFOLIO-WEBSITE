@@ -15,6 +15,8 @@
 }
 
 
+
+
 #container .navbar ul{
     padding: 20px;
     display: flex;
@@ -82,6 +84,9 @@
     opacity: 0;
     transition: 0.5s;
 }
+
+
+
 
 .con p{
     color: white;
@@ -184,23 +189,6 @@
     background-color: rgb(19, 48, 48);
 }
 
-
-
-#help{
-    width: 100%;
-    height: 100vh;
-    background-color: rgb(2, 24, 24);
-}
-
-
-#fun .box {
-    height: 800px;
-    width: 800px;
-    background-color: white;
-    opacity: 0.4;
-    position: absolute;
-    margin:5px 100px;
-}
 
 #about  .content h1{
     padding: 40px 20px;
@@ -470,6 +458,217 @@
     top:50px;
     left: 50px;
 }
+
+
+@media only screen and (max-width: 768px){
+    .con h1{
+        
+        font-size: 50px;
+        position: relative;
+        top: 5vh;
+    }
+    .con p{
+        font-size: 20px;
+        top: 10vh;
+    }
+    .con   .scroll {
+        position: relative;
+        top: 15vh;
+        left: 35%;
+        font-size: 20px;
+        font-weight: 600 ;
+        background:none;
+        border-radius: 20px ;
+        padding: 5px 25px;
+        color: white;
+        transition: 0.5s;
+        box-shadow: 0px 10px 10px rgba(0,0,0,0.5);
+    }
+    #container{
+        width: 100%;
+        height: 85vh;
+
+}
+
+#fun{
+    height: 85vh;
+    
+}
+
+#fun .pic{
+    width:40%;
+    position: relative;
+    top: -32%;
+    left: 28%;
+
+}
+#fun .pic img{
+    border-radius: 8px ;
+    
+}
+#fun .contents h2{
+    font-size: 12px;
+
+
+
+}
+#fun  .content1 h2{
+    font-size: 15px;
+    position: relative;
+    top: 245px;
+    
+}
+#fun  .content2 h2{
+    font-size: 15px;
+    position: relative;
+    top: 208px;
+    
+}
+#fun  .content3 h2{
+    font-size: 15px;
+    position: relative;
+    top: 70px;
+    
+}
+
+
+#fun  .content1 table, th, td {
+    border-radius: 20px;
+    padding: 0px 0px ;
+  }
+#fun  .content2 table, th, td {
+    border-radius: 20px;
+    padding: 1px 5px ;
+  }
+#fun  .content3 table, th, td {
+    border-radius: 20px;
+    padding: 1px 5px ;
+}
+#fun .content1 table .data{
+    font-size: 10px;
+}
+#fun .content2 table .data{
+    font-size: 10px;
+}
+#fun .content3 table .data{
+    font-size: 10px;
+}
+#fun .content1 table  .heading{
+    font-size: 12px;
+    
+}
+#fun .content2 table  .heading{
+    font-size: 12px;
+    
+}
+#fun .content3 table  .heading{
+    font-size: 12px;
+    
+}
+
+#fun .content1 table{
+    
+    width: 55%;
+    height: 0vh;
+
+    top: 135%;
+    left: 10px;
+
+}
+#fun .content2 table{
+    width: 95%;
+    height: 0vh;
+    top: 280%;
+    left: 10px;
+
+}
+#fun .content3 table{
+    width: 95%;
+    height: 0vh;
+    top: 135px;
+    left: 10px;
+}
+#contact {
+    width: 100%;
+    height: 85vh;
+    background-size:contain;
+    background-repeat: repeat;
+
+}
+#contact form  #fname , #lname , #email , #message{
+    margin: 0px 0px;
+    padding: 5px 5px;
+}
+
+#contact form #message{
+    padding: 80px 20px;
+}
+
+#contact form label{
+
+    left: 50px;
+    top: 40px;
+}
+
+#contact form #submit{
+    top:70px;
+    left: 150px;
+}
+
+
+
+#about .bo {
+    position: relative;
+    top: 50px;
+    width: 100px;
+    height: 130px;
+ 
+
+}
+#about{
+    height: 85vh;
+}
+
+
+#about .content .chest1 .bo h4 ,h3 {
+    font-size: 10px;
+    top: 18px;
+} 
+
+#about .content .chest1 .bo h4{
+    padding: 20px;
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     
